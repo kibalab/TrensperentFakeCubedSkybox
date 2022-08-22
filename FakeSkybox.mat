@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FakeSkybox
+  m_Shader: {fileID: 4800000, guid: 51e7b9dae725cbb40a4d1c1386c6334a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMap:
+        m_Texture: {fileID: 8900000, guid: 8afd0d7f0fde68c4b9bb7d802e506cc6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex:
+        m_Texture: {fileID: 8900000, guid: fa374ee2b95ca4e40bcdcc860d3e51a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Gamma: 1
+    - _Alpha: 1
+    - _AlphaMapRange: 0.382
+    - _Exposure: 1
+    - _Gamma: 1
+    - _Rotation: 203
+    m_Colors:
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
